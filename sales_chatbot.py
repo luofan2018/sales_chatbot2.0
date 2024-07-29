@@ -10,6 +10,7 @@ from openai import OpenAI
 
 
 API_KEY=""
+assert len(APR_KEY)>10,"Confirm your Openai's API key is valid!"
 lm_model = "gpt-3.5-turbo"
 def initialize_sales_bot(vector_store_dir: str="real_estates_sale"):
 
